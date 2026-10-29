@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/groq/*"
+  to = "https://api.groq.com/"
+  status = 200
+
+[[headers]]
+  for = "/groq/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
