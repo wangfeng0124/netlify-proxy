@@ -4,7 +4,7 @@ import type { Context } from "@netlify/edge-functions";
 // 定义你的代理规则：路径前缀 => 目标基础 URL
 const PROXY_CONFIG = {
   // API 服务器
-  "/discord": "https://discord.com/api",
+  "/discord": "https://discord.com",
   "/telegram": "https://api.telegram.org",
   "/openai": "https://api.openai.com",
   "/claude": "https://api.anthropic.com",
