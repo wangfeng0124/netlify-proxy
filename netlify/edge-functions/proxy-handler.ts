@@ -18,7 +18,8 @@ const PROXY_CONFIG = {
   "/novita": "https://api.novita.ai",
   "/portkey": "https://api.portkey.ai",
   "/fireworks": "https://api.fireworks.ai",
-  "/openrouter": "https://openrouter.ai/api",
+  "/openrouter": "https://openrouter.ai",
+  "/cloudflare": "https://api.cloudflare.com",
   // 任意网址
   "/hexo": "https://hexo-gally.vercel.app", 
   "/hexo2": "https://hexo-987.pages.dev",
